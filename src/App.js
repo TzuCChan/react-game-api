@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import ChampionCard from './components/ChampionCard';
+import style from './App.module.css';
 
 function App() {
   return (
