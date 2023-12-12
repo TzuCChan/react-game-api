@@ -14,7 +14,9 @@ function App() {
 		try {
 			const response = await (await fetch(url)).json();
 			setChampions(response.data);
-		} catch (err) {}
+		} catch (err) {
+			console.log('err', err);
+		}
 	}
 }
 
