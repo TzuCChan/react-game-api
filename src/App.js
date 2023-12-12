@@ -9,6 +9,13 @@ function App() {
   const [champions, setChampions] = useState({});
   const [selectedChamp, setSelectedChamp] = useState({});
   const [open, setOpen] = useState(false);
+
+  async function fetchChampions() {
+		try {
+			const response = await (await fetch(url)).json();
+			setChampions(response.data);
+		} catch (err) {}
+	}
 }
 
 // function App() {
