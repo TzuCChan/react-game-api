@@ -5,6 +5,10 @@ import Modal from './components/Modal';
 
 const url = `http://ddragon.leagueoflegends.com/cdn/12.22.1/data/en_US/champion.json`;
 
+function App() {
+  const [champions, setChampions] = useState({});
+}
+
 // function App() {
 //   return (
 //     <div className="App">
