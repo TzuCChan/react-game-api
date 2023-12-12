@@ -8,6 +8,7 @@ const url = `http://ddragon.leagueoflegends.com/cdn/12.22.1/data/en_US/champion.
 function App() {
   const [champions, setChampions] = useState({});
   const [selectedChamp, setSelectedChamp] = useState({});
+  const [open, setOpen] = useState(false);
 }
 
 // function App() {
