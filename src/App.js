@@ -27,6 +27,10 @@ function App() {
   function closeModal() {
 		setOpen(false);
 	}
+
+  useEffect(() => {
+		fetchChampions();
+	}, []);
 }
 
 // function App() {
