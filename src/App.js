@@ -17,6 +17,11 @@ function App() {
 		} catch (err) {
 			console.log('err', err);
 		}
+  }
+  
+  function openModal(champName) {
+		setSelectedChamp(champions[champName]);
+		setOpen(true);
 	}
 }
 
