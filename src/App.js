@@ -22,6 +22,10 @@ function App() {
   function openModal(champName) {
 		setSelectedChamp(champions[champName]);
 		setOpen(true);
+  }
+  
+  function closeModal() {
+		setOpen(false);
 	}
 }
 
