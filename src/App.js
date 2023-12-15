@@ -30,7 +30,12 @@ function App() {
 
   useEffect(() => {
 		fetchChampions();
-	}, []);
+  }, []);
+  
+  const championsArray = Object.entries(champions);
+	return (
+    <div className='App'></div>
+  )
 }
 
 // function App() {
