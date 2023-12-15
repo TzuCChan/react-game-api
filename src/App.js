@@ -34,7 +34,11 @@ function App() {
   
   const championsArray = Object.entries(champions);
 	return (
-    <div className='App'></div>
+    <div className='App'>
+      <header>
+				<h1>The League of Legends</h1>
+			</header>
+    </div>
   )
 }
 
