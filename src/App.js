@@ -37,7 +37,10 @@ function App() {
     <div className='App'>
       <header>
 				<h1>The League of Legends</h1>
-			</header>
+      </header>
+      
+      {open && <Modal champName={selectedChamp} closeModal={closeModal} />}
+
     </div>
   )
 }
