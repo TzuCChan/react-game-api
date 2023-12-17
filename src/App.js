@@ -43,7 +43,8 @@ function App() {
 
       <div className={style.container}>
         {championsArray.map(([champName]) => (
-          <ChampionCard/>
+          <ChampionCard
+          key={champName}/>
         ))}
       </div>
 
