@@ -45,7 +45,8 @@ function App() {
         {championsArray.map(([champName]) => (
           <ChampionCard
             key={champName}
-            champName={champName}/>
+            champName={champName}
+            onClick={() => setOpen(true)}/>
         ))}
       </div>
 
