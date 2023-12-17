@@ -46,10 +46,10 @@ function App() {
           <ChampionCard
             key={champName}
             champName={champName}
-            onClick={() => setOpen(true)}/>
+            onClick={() => setOpen(true)}
+            openModal={openModal}/>
         ))}
       </div>
-
     </div>
   )
 }
