@@ -41,7 +41,11 @@ function App() {
       
       {open && <Modal champName={selectedChamp} closeModal={closeModal} />}
 
-      <div className={style.container}></div>
+      <div className={style.container}>
+        {championsArray.map(([champName]) => (
+          <ChampionCard/>
+        ))}
+      </div>
 
     </div>
   )
