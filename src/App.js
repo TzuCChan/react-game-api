@@ -44,7 +44,8 @@ function App() {
       <div className={style.container}>
         {championsArray.map(([champName]) => (
           <ChampionCard
-          key={champName}/>
+            key={champName}
+            champName={champName}/>
         ))}
       </div>
 
