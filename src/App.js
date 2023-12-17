@@ -41,6 +41,8 @@ function App() {
       
       {open && <Modal champName={selectedChamp} closeModal={closeModal} />}
 
+      <div className={style.container}></div>
+
     </div>
   )
 }
