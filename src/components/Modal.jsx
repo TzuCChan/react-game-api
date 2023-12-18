@@ -9,7 +9,9 @@ function Modal({ champName, closeModal }) {
   });
   return (
     <div className={style.modalContainer} onClick={closeModal}>
-      <div id={style.modal}></div>
+      <div id={style.modal}>
+      <div className={style.modalGuts}></div>
+      </div>
     </div >
   );
 }
