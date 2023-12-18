@@ -8,6 +8,8 @@ function Modal({ champName, closeModal }) {
     console.log(champName.name);
   });
   return (
-    <div className={style.modalContainer} onClick={closeModal}></div>
+    <div className={style.modalContainer} onClick={closeModal}>
+      <div id={style.modal}></div>
+    </div >
   );
 }
