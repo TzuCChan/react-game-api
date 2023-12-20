@@ -12,7 +12,8 @@ function Modal({ champName, closeModal }) {
       <div id={style.modal}>
         <div className={style.modalGuts}>
         <img
-						src={`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${champName.name}_0.jpg`}
+            src={`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${champName.name}_0.jpg`}
+            id={style.splash}
 					/>
       </div>
       </div>
