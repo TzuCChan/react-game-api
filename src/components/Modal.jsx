@@ -10,7 +10,11 @@ function Modal({ champName, closeModal }) {
   return (
     <div className={style.modalContainer} onClick={closeModal}>
       <div id={style.modal}>
-      <div className={style.modalGuts}></div>
+        <div className={style.modalGuts}>
+        <img
+						src={`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${champName.name}_0.jpg`}
+					/>
+      </div>
       </div>
     </div >
   );
