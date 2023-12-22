@@ -15,7 +15,8 @@ function Modal({ champName, closeModal }) {
             src={`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${champName.name}_0.jpg`}
             id={style.splash}
             alt=''
-					/>
+          />
+          <h3 id={style.champName}>{champName.name}</h3>
       </div>
       </div>
     </div >
