@@ -19,6 +19,7 @@ function Modal({ champName, closeModal }) {
           <h3 id={style.champName}>{champName.name}</h3>
           <p id={style.title}>{champName.title}</p>
           <p id={style.tags}>{champName.tags.join(`, `)}</p>
+          <p id={style.blurb}>{champName.blurb}</p>
       </div>
       </div>
     </div >
