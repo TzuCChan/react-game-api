@@ -25,3 +25,5 @@ function Modal({ champName, closeModal }) {
     </div >
   );
 }
+
+export default Modal;
