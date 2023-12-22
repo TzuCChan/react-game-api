@@ -17,6 +17,7 @@ function Modal({ champName, closeModal }) {
             alt=''
           />
           <h3 id={style.champName}>{champName.name}</h3>
+          <p id={style.title}>{champName.title}</p>
       </div>
       </div>
     </div >
