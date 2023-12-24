@@ -16,4 +16,5 @@
 
 .modalGuts {
 	align-items: center;
+  display: flex;
 }
