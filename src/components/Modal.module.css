@@ -34,4 +34,11 @@
 	background-image: linear-gradient(
 		grey,
 		grey
-	);}
+	);
+	border-radius: 8px;
+	box-shadow: -5px 0px 29px 9px black;
+	display: flex;
+	margin: 10vh 14.7em;
+	padding: 0.7em;
+	width: 725px;
+}
