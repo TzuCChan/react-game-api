@@ -27,3 +27,11 @@
 	flex-direction: column;
 	justify-content: center;
 }
+
+#modal {
+	backdrop-filter: blur(4px);
+	background-color: rgba(250, 250, 250, 0.25);
+	background-image: linear-gradient(
+		grey,
+		grey
+	);}
