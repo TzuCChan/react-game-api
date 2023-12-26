@@ -42,3 +42,8 @@
 	padding: 0.7em;
 	width: 725px;
 }
+
+#title {
+	font-weight: bold;
+	text-align: center;
+}
