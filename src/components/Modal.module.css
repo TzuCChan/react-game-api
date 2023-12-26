@@ -43,7 +43,8 @@
 	width: 725px;
 }
 
-#title {
+#title,
+#type {
 	font-weight: bold;
 	text-align: center;
 }
