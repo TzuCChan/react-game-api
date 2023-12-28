@@ -3,3 +3,13 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+.modalContainer {
+	align-items: center;
+	background-color: black;
+	backdrop-filter: blur(2px);
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	left: 0;
+}
